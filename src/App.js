@@ -37,7 +37,7 @@ function App() {
     <Header image={image}/>
     
     <Routes>
-    <Route path="/" element={<Product />} />
+    <Route path="/react-ecommerce-app" element={<Product />} />
           <Route path="/product" exact element={<Product />} />
           <Route path="/product/:id" element={<SingleProduct />} />
           {  /*<Route path="todo" element={<Todo />} />  */}
